@@ -1,16 +1,20 @@
 Revision history for Perl module Geo::Coder::HostIP
 
-0.03 <not yet released>
+0.03 2012-01-14
 
     - The testsuite had two tests, but declared one, so it always "failed"
     - Fixed parsing bug that meant Country() and CountryCode() never worked
     - Added $VERSION to HostIP.pm
+    - Changed this file to conform to CPAN::Changes::Spec
+    - Neil Bowers (NEILB) has taken over maintenance of the module from
+      Sean Cannon -- thanks Sean.
 
-0.02  Tue Apr 24 17:14:00 2007
-        - Decided some documentation in POD would be nice. Also made the GoogleMap() fucntion
-	  a little bit better
+0.02 2007-04-24
 
-0.01  Tue Apr 24 15:19:28 2007
-	- original version; created by h2xs 1.23 with options
-		-X Geo::Coder::HostIP
+    - Decided some documentation in POD would be nice.
+    - Made the GoogleMap() function a little bit better
+
+0.01 2007-04-24
+
+	- original version; created by h2xs 1.23 with options -X Geo::Coder::HostIP
 
