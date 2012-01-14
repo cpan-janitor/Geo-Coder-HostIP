@@ -292,9 +292,7 @@ out if, for instance, the majority of people hitting your spanish language
 webpage are Spanish or Mexican, for instance, and thus deciding whether to
 say 'auto' or 'carro'.
 
-Whatev.
-
-Anyway, you HAVE to have LWP installed for it to work.
+This module requires LWP.
 
 =head1 Instantiation
 
@@ -486,19 +484,27 @@ string (as set in Agent()), and _ua is an LWP object.
 
 =head1 HOPES AND DREAMS
 
-- Make GoogleMap more robust
+=over 4
 
-- Add YahooMap and, if they make an API, MapQuestMap
+=item
 
-- Add GetWeather function. That'd be cool. And maybe some other fun toy methods, like MeasureDistance(ip, ip), and Traceroute(ip) the latter of which might actually do a traceroute on every IP along the way and work out how many miles the packets actually travelled. Altitude() is another thought, and possible to get from public info as long as Latitude and Longitude are populated.
+Make GoogleMap more robust
+
+=item
+
+Add YahooMap and, if they make an API, MapQuestMap
+
+=item
+
+Add GetWeather function. That'd be cool. And maybe some other fun toy methods, like MeasureDistance(ip, ip), and Traceroute(ip) the latter of which might actually do a traceroute on every IP along the way and work out how many miles the packets actually travelled. Altitude() is another thought, and possible to get from public info as long as Latitude and Longitude are populated.
+
+=back
 
 =head1 AUTHOR
 
+As of 0.03 the module is now maintained by Neil Bowers E<lt>neilb@cpan.orgE<gt>.
+
 Dodger - dodger@cpan.org
-
-=head1 WEBSITE
-
-http://www.whatever3d.com
 
 =head1 SEE ALSO
 
