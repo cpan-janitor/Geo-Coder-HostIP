@@ -5,7 +5,7 @@ use Carp;
 
 use LWP::UserAgent;
 
-our $VERSION = '0.03';
+our $VERSION = '0.04';
 
 sub new {
     my $c = shift;
@@ -248,7 +248,7 @@ __END__
 
 =head1 NAME
 
-Geo::Coder::HostIP - Object-Oriented Retrival of IP based geocoding info
+Geo::Coder::HostIP - get geocoding info for an IP address
 
 =head1 SYNOPSIS
 
