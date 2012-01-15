@@ -1,5 +1,11 @@
 Revision history for Perl module Geo::Coder::HostIP
 
+0.04 2012-01-15
+
+    - Makefile.PL wasn't declaring declaring pre-requisite modules;
+      this resulted in some CPAN Testers failures.
+    - Fixed typo the one-line description in the NAME section
+
 0.03 2012-01-14
 
     - The testsuite had two tests, but declared one, so it always "failed"

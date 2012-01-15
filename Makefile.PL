@@ -5,7 +5,10 @@ use ExtUtils::MakeMaker;
 WriteMakefile(
     NAME              => 'Geo::Coder::HostIP',
     VERSION_FROM      => 'lib/Geo/Coder/HostIP.pm', # finds $VERSION
-    PREREQ_PM         => {}, # e.g., Module::Name => 1.1
+    PREREQ_PM         => {
+                            'Carp'           => 0,
+                            'LWP::UserAgent' => 0,
+                         },
     ($] >= 5.005 ?     ## Add these new keywords supported since 5.005
       (ABSTRACT_FROM  => 'lib/Geo/Coder/HostIP.pm', # retrieve abstract from module
        AUTHOR         => 'root <root@>') : ()),
