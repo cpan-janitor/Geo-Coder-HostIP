@@ -3,6 +3,7 @@ Revision history for Perl module Geo::Coder::HostIP
 
 0.05 2013-07-20
     - Added repository and license details to metadata in Makefile.PL
+    - Added repository and license information to the pod
 
 0.04 2012-01-15
 

@@ -5,7 +5,7 @@ use Carp;
 
 use LWP::UserAgent;
 
-our $VERSION = '0.04';
+our $VERSION = '0.05';
 
 sub new {
     my $c = shift;
@@ -509,6 +509,15 @@ Dodger - dodger@cpan.org
 =head1 SEE ALSO
 
 perl(1).
+
+=head1 REPOSITORY
+
+L<https://github.com/neilbowers/Geo-Coder-HostIP>
+
+=head1 LICENSE
+
+This is free software;
+you can redistribute it and/or modify it under the same terms as Perl itself.
 
 =cut
 
