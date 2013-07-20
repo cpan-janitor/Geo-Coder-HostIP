@@ -9,6 +9,12 @@ WriteMakefile(
                             'Carp'           => 0,
                             'LWP::UserAgent' => 0,
                          },
+    META_MERGE => {
+        resources => {
+            repository => 'https://github.com/neilbowers/Geo-Coder-HostIP',
+        },
+    },
+    LICENSE      => 'perl',
     ($] >= 5.005 ?     ## Add these new keywords supported since 5.005
       (ABSTRACT_FROM  => 'lib/Geo/Coder/HostIP.pm', # retrieve abstract from module
        AUTHOR         => 'root <root@>') : ()),

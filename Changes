@@ -1,5 +1,9 @@
 Revision history for Perl module Geo::Coder::HostIP
 
+
+0.05 2013-07-20
+    - Added repository and license details to metadata in Makefile.PL
+
 0.04 2012-01-15
 
     - Makefile.PL wasn't declaring declaring pre-requisite modules;
