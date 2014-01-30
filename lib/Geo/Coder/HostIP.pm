@@ -1,11 +1,12 @@
 package Geo::Coder::HostIP;
 
+use 5.006;
 use strict;
 use Carp;
 
 use LWP::UserAgent;
 
-our $VERSION = '0.05';
+our $VERSION = '0.06';
 
 sub new {
     my $c = shift;
