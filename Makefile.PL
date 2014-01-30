@@ -15,6 +15,8 @@ WriteMakefile(
     PREREQ_PM         => {
                             'Carp'           => 0,
                             'LWP::UserAgent' => 0,
+                            'strict'         => 0,
+                            'warnings'       => 0,
                          },
     META_MERGE => {
         resources => {

@@ -3,6 +3,7 @@ Revision history for Perl module Geo::Coder::HostIP
 0.05 2014-01-30
     - Specified min version of perl as 5.6.0
     - Added "use warnings"
+    - Added strict and warnings to PREREQ_PM
 
 0.05 2013-07-20
     - Added repository and license details to metadata in Makefile.PL
