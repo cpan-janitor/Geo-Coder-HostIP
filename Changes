@@ -2,6 +2,7 @@ Revision history for Perl module Geo::Coder::HostIP
 
 0.07 2015-10-24 NEILB
     - Updated repo URL after changing my github username
+    - Explicitly set dyanmic_config to 0
 
 0.06 2014-01-30
     - Specified min version of perl as 5.6.0

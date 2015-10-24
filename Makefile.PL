@@ -19,6 +19,7 @@ WriteMakefile(
                             'warnings'       => 0,
                          },
     META_MERGE => {
+        dynamic_config => 0,
         resources => {
             repository => 'https://github.com/neilb/Geo-Coder-HostIP',
         },
