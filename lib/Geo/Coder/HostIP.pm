@@ -7,7 +7,7 @@ use Carp;
 
 use LWP::UserAgent;
 
-our $VERSION = '0.06';
+our $VERSION = '0.07';
 
 sub new {
     my $c = shift;
@@ -514,7 +514,7 @@ perl(1).
 
 =head1 REPOSITORY
 
-L<https://github.com/neilbowers/Geo-Coder-HostIP>
+L<https://github.com/neilb/Geo-Coder-HostIP>
 
 =head1 LICENSE
 

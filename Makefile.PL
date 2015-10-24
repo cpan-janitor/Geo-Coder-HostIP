@@ -20,7 +20,7 @@ WriteMakefile(
                          },
     META_MERGE => {
         resources => {
-            repository => 'https://github.com/neilbowers/Geo-Coder-HostIP',
+            repository => 'https://github.com/neilb/Geo-Coder-HostIP',
         },
     },
     LICENSE      => 'perl',
